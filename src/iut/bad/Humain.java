@@ -19,14 +19,5 @@ public class Humain {
 	public void details() {
 	    System.out.println(toString());
 	}
-	
-	public void manger() {
-	    
-	}
-
-	public void boire() {
-	   
-	}	
-
 
 }
