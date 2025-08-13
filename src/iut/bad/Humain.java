@@ -15,5 +15,9 @@ public class Humain {
 	public Humain() {
 		super();
 	}
+	
+	public void details() {
+    System.out.println("Nom: " + nom + ", Prénom: " + prenom + ", Age: " + age);
+}
 
 }
