@@ -22,7 +22,11 @@ public class Humain {
 	}
 	
 	public void ami(Humain autre) {
-    System.out.println(this.prenom + " est ami avec " + autre.prenom);
+	    ami(autre, 100);
+	}
+
+	public void ami(Humain autre, int duree) {
+	    System.out.println(this.prenom + " est ami avec " + autre.prenom + " depuis " + duree + " jours.");
 	}
 
 }
