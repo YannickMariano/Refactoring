@@ -12,6 +12,7 @@ public class Humain {
 		this.prenom = prenom;
 		this.age = age;
 	}
+	
 	public Humain() {
 		super();
 	}
