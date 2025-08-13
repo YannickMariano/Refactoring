@@ -2,9 +2,9 @@ package iut.bad;
 
 public class Humain {
 	
-	private String nom;
-    private String prenom;
-    private int age;
+	public String nom;
+	public String prenom;
+	public int age;
     
 	public Humain(String nom, String prenom, int age) {
 		super();
@@ -16,10 +16,6 @@ public class Humain {
 		super();
 	}
 	
-	@Override
-	public String toString() {
-	    return "Nom: " + nom + ", Prénom: " + prenom + ", Age: " + age;
-	}
 
 	public void details() {
 	    System.out.println(toString());
