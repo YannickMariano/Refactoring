@@ -16,8 +16,14 @@ public class Humain {
 		super();
 	}
 	
+	@Override
+	public String toString() {
+	    return "Nom: " + nom + ", Prénom: " + prenom + ", Age: " + age;
+	}
+
 	public void details() {
-    System.out.println("Nom: " + nom + ", Prénom: " + prenom + ", Age: " + age);
-}
+	    System.out.println(toString());
+	}
+
 
 }
